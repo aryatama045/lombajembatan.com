@@ -156,17 +156,17 @@ $iden = $this->db->query("SELECT * FROM tb_web_identitas where id_identitas='1'"
                     
                     
                 </div>    
-                <!-- <div class="tm-hero-text-container-inner4 d-lg-none ">
+                <div class="tm-hero-text-container-inner4 ">
                     <img  src="<?= base_url('assets/home/') ?>center4.png" alt="">
-                </div>  -->
+                </div> 
                 <div class="tm-hero-text-container-inner3 ">
                 <!--d-md-block d-none-->
                 <img src="<?= base_url('assets/home/') ?>center222.png" alt="">
                 </div> 
                 <div class="tm-hero-text-container-inner5">
-                    <div class="img-center-5">
-                        <!-- <img  src="<?= base_url('assets/home/') ?>center4.png" alt=""> -->
-                    </div>
+                    <!-- <div class="img-center-5"> -->
+                        <img  src="<?= base_url('assets/home/') ?>center5.png" alt="">
+                    <!-- </div> -->
                 </div>
 
             </div>
