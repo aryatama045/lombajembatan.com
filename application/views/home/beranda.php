@@ -36,7 +36,7 @@ $iden = $this->db->query("SELECT * FROM tb_web_identitas where id_identitas='1'"
     <link rel="stylesheet" href="<?= base_url('assets/template/tema/') ?>vendor/photoswipe/default-skin/default-skin.css">
     <link rel="stylesheet" href="<?= base_url('assets/template/tema/') ?>vendor/select2/css/select2.min.css">
     <link rel="stylesheet" href="<?= base_url('assets/template/tema/') ?>css/style.css">
-    <link rel="stylesheet" href="<?= base_url('assets/template/tema/') ?>css/slick.css">
+    <!-- <link rel="stylesheet" href="<?= base_url('assets/template/tema/') ?>css/slick.css"> -->
     <!-- <link rel="stylesheet" href="<?= base_url('assets/template/tema/') ?>vendor/fontawesome/css/all.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="<?= base_url('assets/template/tema/') ?>fonts/stroyka/stroyka.css">
@@ -47,7 +47,7 @@ $iden = $this->db->query("SELECT * FROM tb_web_identitas where id_identitas='1'"
 
     <script src="<?= base_url('assets/template/tema/') ?>vendor/jquery/jquery.min.js"></script>
     <script src="<?= base_url('assets/template/js/header.js') ?>"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script> -->
     <script>
         var site_url = '<?= base_url() ?>';
     </script>
@@ -152,15 +152,16 @@ $iden = $this->db->query("SELECT * FROM tb_web_identitas where id_identitas='1'"
                 </div>
                 <div class="tm-hero-text-container-inner2 ">
                 <!--d-md-block d-none-->
-                    <img  src="<?= base_url('assets/home/') ?>center22.png" alt="">
-                    <img  src="<?= base_url('assets/home/') ?>center222.png" alt="">
+                    <img src="<?= base_url('assets/home/') ?>center22.png" alt="">
+                    
+                    
                 </div>    
                 <!-- <div class="tm-hero-text-container-inner4 d-lg-none ">
                     <img  src="<?= base_url('assets/home/') ?>center4.png" alt="">
                 </div>  -->
                 <div class="tm-hero-text-container-inner3 ">
                 <!--d-md-block d-none-->
-                    <!-- <img    src="<?= base_url('assets/home/') ?>center3.png" alt=""> -->
+                <img src="<?= base_url('assets/home/') ?>center222.png" alt="">
                 </div> 
                 <div class="tm-hero-text-container-inner5">
                     <div class="img-center-5">
