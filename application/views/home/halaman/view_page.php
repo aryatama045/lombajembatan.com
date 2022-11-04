@@ -21,7 +21,7 @@ $card_body = $url!='page/detail/hadiah-juara'?'card-body':'';
 
                 <!-- <div class="post__featured"><a href="#"><img src="" alt=""></a></div> -->
 
-                <div class="<?= $card_body ?> post__content typography">
+                <div class=" post__content typography">
 
                     <?= $record['isi_halaman']; ?>
 
