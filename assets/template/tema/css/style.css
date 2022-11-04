@@ -234,15 +234,8 @@ h6 {
 
 .site-home{
     min-height: 100%;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    background-color: #490d40;
-  background: url(../../../../assets/home/bg.png) no-repeat center center;
-  background-size: cover;
-  /* height: 700px; */
-  /*margin-top: -20px;*/
+    background: url(../../../../assets/home/bg.png) no-repeat center center;
+    background-size: cover;
 }
 
 .site__header {
