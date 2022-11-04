@@ -136,11 +136,13 @@ $iden = $this->db->query("SELECT * FROM tb_web_identitas where id_identitas='1'"
     <!-- mobile menu -->
     <?php include '_include/mobilemenu.php'; ?>
 
+    <!-- navbar -->
+    <?php include '_include/navbar.php'; ?>
+
     <!-- site -->
     <div class="site-home">
 
-        <!-- navbar -->
-        <?php include '_include/navbar.php'; ?>
+        
 
         <section id="hero" class="text-white tm-font-big tm-parallax">
 

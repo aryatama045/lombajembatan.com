@@ -64,10 +64,10 @@ $this->load->model('Model_menu');?>
                 <div class="site-header__nav-panel">
                     <!-- data-sticky-mode - one of [pullToShow, alwaysOnTop] -->
                     <div class="nav-panel nav-panel--sticky" data-sticky-mode="alwaysOnTop">
-                        <div class="nav-panel__container container" style="padding-left: 160px;">
+                        <div class="nav-panel__container container" style="padding-left: 20em;">
                             <div class="nav-panel__row">
 
-                                <a style="    position: fixed;left: 1em;" href="https://ciptakarya.pu.go.id/seknashabitat/index.php/home.html" target="_blank" class="site-header__logo2">
+                                <a style="    position: fixed;left: 1em;" href="<?= base_url()?>" target="_blank" class="site-header__logo2">
                                 <img src="<?= base_url();?>assets/logo-t1.png" height="60px"></a>
 
                                 <div class="nav-panel__nav-links nav-links">
