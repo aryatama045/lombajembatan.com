@@ -148,7 +148,7 @@ $iden = $this->db->query("SELECT * FROM tb_web_identitas where id_identitas='1'"
 
             <div class=" tm-hero-text-container">
                 <div class="tm-hero-text-container-inner">
-                    <!-- <img  src="<?= base_url('assets/home/') ?>center.png" alt=""> -->
+                    <img  src="<?= base_url('assets/home/') ?>jem.png" alt="">
                 </div>
                 <div class="tm-hero-text-container-inner2 ">
                 <!--d-md-block d-none-->
